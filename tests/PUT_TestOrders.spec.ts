@@ -1,7 +1,7 @@
 import { expect, test } from "@playwright/test";
 import { StatusCodes } from "http-status-codes";
 //Update an order by providing a valid order ID. Requires a valid 16-digit API key in the 'api_key' header
-//#1
+//#1.
 test("Update order with correct data should receive code 200", async ({
   request,
 }) => {

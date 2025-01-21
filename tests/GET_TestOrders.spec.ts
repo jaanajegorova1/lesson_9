@@ -1,7 +1,7 @@
 import { expect, test } from "@playwright/test";
 import { StatusCodes } from "http-status-codes";
 //Authenticate a user by providing a valid username and password. Returns an API key.
-//#1
+//#1.
 test("Get test orders with correct data should receive code 200", async ({
   request,
 }) => {
