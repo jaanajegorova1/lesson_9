@@ -18,13 +18,13 @@
 ## Delete Test Orders
 
 | #   | Test name                                                    | Should receive code | Received code | Status |
-| --- | ------------------------------------------------------------ | ------------------- | ------------- | ------ |
+| --- |--------------------------------------------------------------| ------------------- | ------------- | ------ |
 | 1   | Delete an order by providing a valid order ID                | 204                 | 204           | Passed |
 | 2   | Delete an order by providing a invalid order ID              | 400                 | 400           | Passed |
 | 3   | Delete an order without providing API key for authentication | 400                 | 400           | Passed |
 | 4   | Delete an order without providing required parameter ID      | 405                 | 405           | Passed |
 | 5   | Delete an order with ID = 0                                  | 400                 | 400           | Passed |
-| 6   | Delete an order with API key less than 16 digits             | 401                 | 401           | Passed |
+| 6   | Delete an order with API key less than 16 Digits             | 401                 | 401           | Passed |
 
 ## Put Test Orders
 

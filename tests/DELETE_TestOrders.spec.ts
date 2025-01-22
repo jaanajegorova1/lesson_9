@@ -1,6 +1,6 @@
 import { expect, test } from "@playwright/test";
 import { StatusCodes } from "http-status-codes";
-//Delete an order by providing a valid order ID. Requires a valid 16-digit API key in the 'api_key' header.
+//Delete an order by providing a valid order ID. Requires a valid 16-digit API key in the 'api_key' header
 //#1
 test("Delete an order by providing a valid order ID should receive code 204", async ({
   request,
@@ -36,7 +36,7 @@ test("Delete an order by providing a invalid order ID should receive code 400", 
   expect(response.status()).toBe(StatusCodes.BAD_REQUEST);
 });
 //#3
-test("Delete an order without providing API key for authentication should receive code 400", async ({
+test("Delete an order without providing API Key for authentication should receive code 400", async ({
   request,
 }) => {
   const requestHeaders = {

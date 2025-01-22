@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a3d8bd2-8e6d-4f3a-9655-ec6f6a55021b" name="Changes" comment="Homework_9.1 | JJ |added 4 files: PUT, DELETE, GET, Readme">
-      <change afterPath="$PROJECT_DIR$/Homework_9.1/.github/workflows/test.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework_9.1" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_9.1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/DELETE_TestOrders.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/DELETE_TestOrders.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/GET_TestOrders.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/GET_TestOrders.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/PUT_TestOrders.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/PUT_TestOrders.spec.ts" afterDir="false" />
-    </list>
+    <list default="true" id="0a3d8bd2-8e6d-4f3a-9655-ec6f6a55021b" name="Changes" comment="feat | JJ |.yml file added" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -175,7 +168,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737458562490</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat | JJ |.yml file added">
+      <option name="closed" value="true" />
+      <created>1737538581713</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1737538581713</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,6 +189,7 @@
     <MESSAGE value="HW9 | JJ |PUT, DELETE, GET, Readme | small update" />
     <MESSAGE value="HW9 | JJ |PUT, DELETE, GET, Readme | homework_9.1" />
     <MESSAGE value="Homework_9.1 | JJ |added 4 files: PUT, DELETE, GET, Readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework_9.1 | JJ |added 4 files: PUT, DELETE, GET, Readme" />
+    <MESSAGE value="feat | JJ |.yml file added" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat | JJ |.yml file added" />
   </component>
 </project>
