@@ -1,6 +1,6 @@
 import { expect, test } from "@playwright/test";
 import { StatusCodes } from "http-status-codes";
-//Delete an order by providing a valid order ID. Requires a valid 16-digit API key in the 'api_key' header
+//Delete an order by providing a valid order ID. Requires a valid 16-digit API key in the 'api_key' header.
 //#1
 test("Delete an order by providing a valid order ID should receive code 204", async ({
   request,

@@ -13,7 +13,7 @@
 | 9   | Get test orders with password = &                         | 500                 | 200           | Failed |
 | 10  | Get test orders when parameters = numbers                 | 500                 | 200           | Failed |
 | 11  | Get test orders with parameters = string                  | 500                 | 200           | Failed |
-| 12  | Get test orders when username and password are missing    | 500                 | 500           | Passed |
+| 12  | Get test orders when username and password are missing.   | 500                 | 500           | Passed |
 
 ## Delete Test Orders
 
