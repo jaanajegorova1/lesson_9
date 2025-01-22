@@ -13,11 +13,9 @@
   "scripts": {
     "prettier:format": "prettier --write \"tests/**/*.{ts,tsx,js,jsx,json,css,md}\"",
     "prettier:check": "prettier --check \"tests/**/*.{ts,tsx,js,jsx,json,css,md}\"",
-    "test:delete": "npx jest ./tests/DELETE_TestOrders.spec.ts",
-    "test:get": "npx jest ./tests/GET_TestOrders.spec.ts",
-    "test:put": "npx jest ./tests/PUT_TestOrders.spec.ts"
+    "test": "npx jest"
   },
-  "dependencies": {
+    "dependencies": {
     "playwright": "^1.49.1"
   },
   "devDependencies": {

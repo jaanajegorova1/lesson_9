@@ -1,0 +1,20 @@
+Index: Homework_9.1/.github/workflows/test.yml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>name: Check and Run tests\r\non:\r\n  push:\r\n    branches: [develop, master]\r\n  pull_request:\r\n    branches:\r\n      - master\r\n\r\njobs:\r\n  format-lint-test:\r\n    runs-on: ubuntu-latest\r\n    steps:\r\n      - name: Checkout code\r\n        uses: actions/checkout@v4\r\n\r\n      - name: Set up Node.js\r\n        uses: actions/setup-node@v4\r\n        with:\r\n          node-version: \"18\"\r\n\r\n      - name: Install dependencies\r\n        run: npm ci\r\n\r\n      - name: Run Prettier check\r\n        run: |\r\n          echo \"Running Prettier to check for formatting issues...\"\r\n          npm run prettier:check\r\n\r\n      - name: Run ESLint check\r\n        run: |\r\n          echo \"Running ESLint to check for linting issues...\"\r\n          npm run lint\r\n\r\n      - name: Run TypeScript compile check\r\n        run: |\r\n          echo \"Running TypeScript compiler to check for type issues...\"\r\n          npx tsc --noEmit\r\n\r\n      - name: Run Playwright API tests\r\n        run: |\r\n          echo \"Running Playwright to execute API tests...\"\r\n          npx playwright test\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Homework_9.1/.github/workflows/test.yml b/Homework_9.1/.github/workflows/test.yml
+--- a/Homework_9.1/.github/workflows/test.yml	(revision aabf5c9658eb04fc1a6671b05de3a9ee65fda853)
++++ b/Homework_9.1/.github/workflows/test.yml	(date 1737540757980)
+@@ -1,7 +1,8 @@
+ name: Check and Run tests
+ on:
+   push:
+-    branches: [develop, master]
++    branches:
++    - master
+   pull_request:
+     branches:
+       - master

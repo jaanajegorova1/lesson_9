@@ -28,7 +28,4 @@ jobs:
           npm run prettier:check
 
       - name: Run tests
-        run: npm run |
-          test:delete
-          test:get
-          test:put
+        run: npm test
