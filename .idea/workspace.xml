@@ -53,22 +53,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Playwright.DELETE_TestOrders.spec.ts.executor": "Run",
-    "Playwright.GET_TestOrders.spec.ts.executor": "Run",
-    "Playwright.PUT_TestOrders.spec.ts.executor": "Run",
-    "Playwright.Tests in tests\\.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "lesson9__Homework__9.1",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/jaana/AquaProjects/Homework_9.1",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\Users\\jaana\\AquaProjects\\Homework_9.1\\node_modules\\typescript\\lib"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Playwright.DELETE_TestOrders.spec.ts.executor&quot;: &quot;Run&quot;,
+    &quot;Playwright.GET_TestOrders.spec.ts.executor&quot;: &quot;Run&quot;,
+    &quot;Playwright.PUT_TestOrders.spec.ts.executor&quot;: &quot;Run&quot;,
+    &quot;Playwright.Tests in tests\\.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;lesson9__Homework__9.1&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jaana/AquaProjects/Homework_9.1&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\jaana\\AquaProjects\\Homework_9.1\\node_modules\\typescript\\lib&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Playwright.DELETE_TestOrders.spec.ts">
     <configuration name="DELETE_TestOrders.spec.ts" type="JavaScriptTestRunnerPlaywright" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
@@ -108,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Playwright.DELETE_TestOrders.spec.ts" />
         <item itemvalue="Playwright.Tests in tests\" />
         <item itemvalue="Playwright.PUT_TestOrders.spec.ts" />
         <item itemvalue="Playwright.GET_TestOrders.spec.ts" />
-        <item itemvalue="Playwright.Tests in tests\" />
+        <item itemvalue="Playwright.DELETE_TestOrders.spec.ts" />
+        <item itemvalue="Playwright.DELETE_TestOrders.spec.ts" />
       </list>
     </recent_temporary>
   </component>
