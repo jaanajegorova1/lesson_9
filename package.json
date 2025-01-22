@@ -14,7 +14,7 @@
     "prettier:format": "prettier --write \"tests/**/*.{ts,tsx,js,jsx,json,css,md}\"",
     "prettier:check": "prettier --check \"tests/**/*.{ts,tsx,js,jsx,json,css,md}\"",
     "lint": "eslint tests",
-    "test": "npx playwright test"
+    "test": "npx jest"
   },
   "dependencies": {
     "playwright": "^1.49.1"
