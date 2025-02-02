@@ -1,7 +1,27 @@
 import { expect, test } from "@playwright/test";
 import { StatusCodes } from "http-status-codes";
-//Authenticate a user by providing a valid username and password. Returns an API key.
-
+//Authenticate a user by providing a valid username and password. Returns an API key
+//#1
+test("Get test orders with correct data should receive code 200", async ({
+  request,
+}) => {
+  const requestParameters = {
+    username: "Tester1",
+    password: "passwordTester1",
+  };
+  const response = await request.get(
+    "https://backend.tallinn-learning.ee/test-orders",
+    {
+      params: requestParameters,
+    },
+  );
+  const responseBody = await response.json();
+  console.log("response status:", response.status());
+  console.log("response body:", await response.json());
+  console.log("response headers:", response.headers());
+  expect(response.status()).toBe(StatusCodes.OK);
+  expect(responseBody.apiKey).not.toBe(null);
+});
 //#2
 test("Get test orders with correct similar data should receive code 200", async ({
   request,
